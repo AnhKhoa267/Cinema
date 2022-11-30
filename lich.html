@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch xem phim</title>
+    <link rel="stylesheet" href="./lich.css">
+</head>
+<body>
+    <h1>Lịch chiếu phim</h1>
+
+    <!--phan lich-->
+    <!--tab chon ngay-->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'thu6')">Thứ 6 <br> 22/12 </button>
+        <button class="tablinks" onclick="openCity(event, 'thu7')">Thứ 7 <br> 23/12 </button>
+        <button class="tablinks" onclick="openCity(event, 'chunhat')">Chủ nhật <br> 24/12 </button>
+        <button class="tablinks" onclick="openCity(event, 'thuhai')">Thứ hai <br> 25/12 </button>
+        <button class="tablinks" onclick="openCity(event, 'thuba')">Thứ ba <br> 26/12 </button>
+    </div>
+    
+    <!--noi dung tab-->
+    <div id="thu6" class="tabcontent">
+        <div class="tabcontent-item">
+            <img src="./img/onepice.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>One Price Flim Red</h3>
+                <p>CGV Hai Bà Trưng , Nguyễn Đình Chiểu </p>
+                <p>Cinestar Mai Chí Thọ</p>
+                <div class="gio-chieu">
+                    <p>08:50</p>
+                    <p>11:10</p>
+                    <p>13:30</p>
+                    <p>15:50</p>
+                    <p>18:10</p>
+                    <p>20:30</p>
+                    <p>22:20</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/hpmau.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Hạnh Phúc Máu</h3>
+                <p>CGV Hai Bà Trưng</p>
+                <p>Cinestar Mai Chí Thọ</p>
+                <div class="gio-chieu">
+                    <p>09:50</p>
+                    <p>10:50</p>
+                    <p>13:10</p>
+                    <p>15:30</p>
+                    <p>16:40</p>
+                    <p>17:50</p>
+                    <p>19:00</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/wakanda.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Wakanda Bất Diệt</h3>
+                <p>CGV CT Plaza - Hùng Vương Plaza</p>
+                <p>BHD Star 3/2</p>
+                <div class="gio-chieu">
+                    <p>09:40</p>
+                    <p>12:50</p>
+                    <p>16:00</p>
+                    <p>19:10</p>
+                    <p>22:30</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/sanlung.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Săn Lùng</h3>
+                <p>CGV Hai Bà Trưng</p>
+                <p>Galaxy Kinh Dương Vương - Quang Trung - Trung Chánh</p>
+                <div class="gio-chieu">
+                    <p>09:10</p>
+                    <p>16:10</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div id="thu7" class="tabcontent">
+        <div class="tabcontent-item">
+            <img src="./img/onepice.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>One Price Flim Red</h3>
+                <p>CGV Hai Bà Trưng , Nguyễn Đình Chiểu </p>
+                <p>Cinestar Mai Chí Thọ</p>
+                <div class="gio-chieu">
+                    <p>08:50</p>
+                    <p>11:10</p>
+                    <p>13:30</p>
+                    <p>15:50</p>
+                    <p>18:10</p>
+                    <p>20:30</p>
+                    <p>22:20</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/hpmau.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Hạnh Phúc Máu</h3>
+                <p>CGV Hai Bà Trưng</p>
+                <p>Cinestar Mai Chí Thọ</p>
+                <div class="gio-chieu">
+                    <p>09:50</p>
+                    <p>10:50</p>
+                    <p>13:10</p>
+                    <p>15:30</p>
+                    <p>16:40</p>
+                    <p>17:50</p>
+                    <p>19:00</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/wakanda.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Wakanda Bất Diệt</h3>
+                <p>CGV CT Plaza - Hùng Vương Plaza</p>
+                <p>BHD Star 3/2</p>
+                <div class="gio-chieu">
+                    <p>09:40</p>
+                    <p>12:50</p>
+                    <p>16:00</p>
+                    <p>19:10</p>
+                    <p>22:30</p>
+                </div>
+            </section>
+        </div>
+        <div class="tabcontent-item">
+            <img src="./img/sanlung.jpeg" class="tabcontent-item__img" alt="">
+            <section>
+                <h3>Săn Lùng</h3>
+                <p>CGV Hai Bà Trưng</p>
+                <p>Galaxy Kinh Dương Vương - Quang Trung - Trung Chánh</p>
+                <div class="gio-chieu">
+                    <p>09:10</p>
+                    <p>16:10</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div id="chunhat" class="tabcontent">
+        <h3>Chưa có lịch chiếu . Hãy quay lại sau</h3>
+    </div>
+    <div id="thuhai" class="tabcontent">
+        <h3>Chưa có lịch chiếu . Hãy quay lại sau</h3>
+    </div>
+    <div id="thuba" class="tabcontent">
+        <h3>Chưa có lịch chiếu . Hãy quay lại sau</h3>
+    </div>
+    <script src="./lich.js"></script>
+</body>
+</html>
