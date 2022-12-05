@@ -19,13 +19,15 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: #12161d;
-  color: #fff;
+    margin-bottom: 60px;
+    background-color: #12161d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .e-bigger {
     font-size: x-large;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*BreadCrumb*/
@@ -78,4 +80,16 @@ body {
 .widget {
     border-radius: 1rem;
     background-color: #1a222b;
+}
+
+.navbar-brand{
+    background:black;
+    padding:10px 20px;
+}
+.nav-item{
+    margin:0 10px;
+    font-size:15px;
+}
+.nav-item:hover{
+    color:red;
 }

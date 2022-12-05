@@ -72,7 +72,7 @@ namespace ExpenseTracker.Controllers
         public void PopulateCategories()
         {
             var CategoryCollection = _context.Categories.ToList();
-            Category DefaultCategory = new Category() { CategoryId = 0, Title = "Choose a Category" };
+            Category DefaultCategory = new Category() { RapId = 0, TenRap = "Chon Ten Rap" };
             CategoryCollection.Insert(0, DefaultCategory);
             ViewBag.Categories = CategoryCollection;
         }

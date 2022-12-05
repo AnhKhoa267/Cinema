@@ -1,34 +1,33 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ExpenseTracker.Models
 {
-    public class Category
+    public class DSPhim
     {
         [Key]
-        public int RapId { get; set; }
+        public int PhimId { get; set; }
         [Column(TypeName = "nvarchar(50)")]
-        public string ? TenRap { get; set; }
+        public string? TenPhim { get; set; }
         [Column(TypeName = "nvarchar(50)")]
-        public string DiaChi { get; set; } = "";
+        public int ThoiLuong { get; set; } 
         [Column(TypeName = "nvarchar(50)")]
         public string Type { get; set; } = "Expense";
         [NotMapped]
-        public string? TitleWithIcon
+        public string? TitleWithPhim
         {
             get
             {
-                return this.TenRap;
+                return this.TenPhim;
             }
         }
-        public string? TitleWithIcons
+        public string? TitleWithPhims
         {
             get
             {
-                return this.DiaChi;
+                return this.ThoiLuong + "phut";
             }
         }
-
-
     }
 }

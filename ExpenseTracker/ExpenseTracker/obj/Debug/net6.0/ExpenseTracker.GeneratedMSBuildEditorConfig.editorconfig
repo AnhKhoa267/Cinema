@@ -8,53 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExpenseTracker
 build_property.RootNamespace = ExpenseTracker
-build_property.ProjectDir = D:\HK1_Nam3\Cong-nghe-Net\ExpenseTracker\ExpenseTracker\
+build_property.ProjectDir = C:\Users\ASUS\OneDrive\Desktop\Cinema\ExpenseTracker\ExpenseTracker\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HK1_Nam3\Cong-nghe-Net\ExpenseTracker\ExpenseTracker
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\OneDrive\Desktop\Cinema\ExpenseTracker\ExpenseTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Category/AddOrEdit.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Category/AddOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkT3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Category/Index.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Home/Index.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/DSPhim/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFNQaGltXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/DSPhim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFNQaGltXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Home/Privacy.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/Error.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Lich/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGljaFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Lich/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGljaFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Lich/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGljaFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Lich/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGljaFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Lich/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGljaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Transaction/AddOrEdit.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Transaction/AddOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cQWRkT3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Transaction/Index.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Transaction/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/OneDrive/Desktop/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7m57npvwnm
