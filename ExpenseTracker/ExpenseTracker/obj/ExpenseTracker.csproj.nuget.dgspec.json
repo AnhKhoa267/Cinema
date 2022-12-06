@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HK1_Nam3\\Cong-nghe-Net\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj": {}
+    "D:\\CN Net\\ThucHanh\\Cinema\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj": {}
   },
   "projects": {
-    "D:\\HK1_Nam3\\Cong-nghe-Net\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj": {
+    "D:\\CN Net\\ThucHanh\\Cinema\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HK1_Nam3\\Cong-nghe-Net\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
+        "projectUniqueName": "D:\\CN Net\\ThucHanh\\Cinema\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
         "projectName": "ExpenseTracker",
-        "projectPath": "D:\\HK1_Nam3\\Cong-nghe-Net\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HK1_Nam3\\Cong-nghe-Net\\ExpenseTracker\\ExpenseTracker\\obj\\",
+        "projectPath": "D:\\CN Net\\ThucHanh\\Cinema\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
+        "packagesPath": "C:\\Users\\tnbao\\.nuget\\packages\\",
+        "outputPath": "D:\\CN Net\\ThucHanh\\Cinema\\ExpenseTracker\\ExpenseTracker\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tnbao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

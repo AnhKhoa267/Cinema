@@ -1,0 +1,49 @@
+﻿@model ExpenseTracker.Models.CauThu
+
+@{
+    ViewData["PageTitle"] = Model.IdCT == 0 ? "Create a new category" : "Edit CauThu";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="widget p-5" style="background-color: #212b36">
+            <form asp-action="AddOrEdit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" name="IdCT" value="@Model.IdCT" />
+                <div class="mb-3">
+                    <div class='e-btn-group custom-rbt-group'>
+                        <input type="radio" id="radioleft" name="Type" value="Da chinh" checked="@(Model.Type=="Da chinh")" />
+                        <label class="e-btn" for="radioleft">Da Chinh</label>
+                        <input type="radio" id="radiomiddle" name="Type" value="Du bi" checked="@(Model.Type=="Du bi")" />
+                        <label class="e-btn" for="radiomiddle">Du Bi</label>
+                    </div>
+                    <span asp-validation-for="Type" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="title" placeholder="Ten" ejs-for="Ten" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="Ten" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="title_1" placeholder="So Ao" ejs-for="SoAo" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="SoAo" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="icon" placeholder="Vi Tri" ejs-for="ViTri" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="ViTri" class="text-danger"></span>
+                </div>
+                <ejs-button id="submit" type="submit" content="Submit" cssClass="e-success"></ejs-button>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-shapes fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

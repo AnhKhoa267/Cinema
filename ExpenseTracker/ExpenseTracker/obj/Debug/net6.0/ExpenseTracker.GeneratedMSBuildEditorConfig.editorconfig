@@ -8,53 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExpenseTracker
 build_property.RootNamespace = ExpenseTracker
-build_property.ProjectDir = D:\HK1_Nam3\Cong-nghe-Net\ExpenseTracker\ExpenseTracker\
+build_property.ProjectDir = D:\CN Net\ThucHanh\Cinema\ExpenseTracker\ExpenseTracker\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HK1_Nam3\Cong-nghe-Net\ExpenseTracker\ExpenseTracker
+build_property.MSBuildProjectDirectory = D:\CN Net\ThucHanh\Cinema\ExpenseTracker\ExpenseTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Category/AddOrEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkT3JFZGl0LmNzaHRtbA==
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/CauThu/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F1VGh1XEFkZE9yRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/CauThu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F1VGh1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Home/Index.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Home/Privacy.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/Error.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Transaction/AddOrEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cQWRkT3JFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Transaction/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/_ViewImports.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/_ViewStart.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HK1_Nam3/Cong-nghe-Net/ExpenseTracker/ExpenseTracker/Views/Shared/_Layout.cshtml]
+[D:/CN Net/ThucHanh/Cinema/ExpenseTracker/ExpenseTracker/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7m57npvwnm

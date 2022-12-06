@@ -9,11 +9,11 @@ using ExpenseTracker.Models;
 
 namespace ExpenseTracker.Controllers
 {
-    public class CategoryController : Controller
+    public class CauThuController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public CategoryController(ApplicationDbContext context)
+        public CauThuController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -21,18 +21,18 @@ namespace ExpenseTracker.Controllers
         // GET: Category
         public async Task<IActionResult> Index()
         {
-            return _context.Categories != null ?
-              View(await _context.Categories.ToListAsync()) :
-              Problem("Entity set 'ApplicationDbContext.Categories' is null");
+            return _context.CauThus != null ?
+              View(await _context.CauThus.ToListAsync()) :
+              Problem("Entity set 'ApplicationDbContext.CauThus' is null");
         }
 
         // GET: Category/AddOrEdit
         public IActionResult AddOrEdit(int id=0)
         {
             if (id == 0)
-                return View(new Category());
+                return View(new CauThu());
             else
-                return View(_context.Categories.Find(id));
+                return View(_context.CauThus.Find(id));
         }
 
         // POST: Category/AddOrEdit
@@ -40,11 +40,11 @@ namespace ExpenseTracker.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddOrEdit([Bind("CategoryId,Title,Icon,Type")] Category category)
+        public async Task<IActionResult> AddOrEdit([Bind("")] CauThu category)
         {
             if (ModelState.IsValid)
             {
-                if (category.CategoryId == 0)
+                if (category.IdCT == 0)
                     _context.Add(category);
                 else
                     _context.Update(category);
@@ -59,14 +59,14 @@ namespace ExpenseTracker.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Categories == null)
+            if (_context.CauThus == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.CauThus'  is null.");
             }
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _context.CauThus.FindAsync(id);
             if (category != null)
             {
-                _context.Categories.Remove(category);
+                _context.CauThus.Remove(category);
             }
             
             await _context.SaveChangesAsync();
